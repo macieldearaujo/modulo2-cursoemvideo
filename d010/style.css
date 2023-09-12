@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ebe5c5;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e 85%);
+    padding-top: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.34);
+}
+
+/*p:hover {
+    text-decoration: underline solid black;
+} */
+
+#site-title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-weight: inherit;
+    font-size: 48px;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+}
+
+#site-subtitle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: normal;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #83e1ad;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #2fa866;
+    border-radius: 5px;
+    color: #063d1e;
+}
+
+main, section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.418);
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+
+main > h1, h2 {
+    font-family: 'android';
+}
+
+main > h1 {
+    color: #063d1e;
+    font-size: 28px;
+    font-weight: inherit;
+    line-height: 24px;
+}
+
+main > h2 {
+    color: #1a5c37;
+    font-weight: inherit;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+    font-size: 20px;
+    padding: 2px;
+    text-indent: 5px;
+}
+
+main > p {
+    font: normal, 400, 16px, arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    text-indent: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+picture {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link-1 {
+    background-color: #83e1ad;
+    color: #063d1e;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.link-1::after {
+    content: '\00A0\1F517';
+}
+
+.link-1:hover {
+    text-decoration: underline solid #1a5c37;
+}
+
+.link-2 {
+    font-weight: bold;
+    color: #063d1e;
+    text-decoration: none;
+}
+
+.link-2::after {
+    content: '\00A0\1F517';
+}
+
+.link-2:hover {
+    text-decoration: underline solid #1a5c37;
+}
+
+.bold-text-1 {
+    font-weight: bold;
+    color: #1a5c37;
+}
+
+#title-main {
+    margin: 10px;
+}
+
+#extra {
+    background-color: #83e1ad;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.416);
+    margin: 15px 0px;
+}
+
+#video {
+    background-color: #063d1e;
+    padding: 20px;
+    text-align: center;
+}
+
+#title-section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a5c37;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 0px;
+}
+
+article {
+    margin: 3px;
+    padding: 5px;
+}
+
+article > p, ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+}
+
+article > p {
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article > ul {
+    text-indent: 0px;
+    line-height: 13.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    columns: 2;
+    list-style-type: none;
+}
+
+article > ul > li::before {
+    content: '✔';
+    margin-right: 15px;
+}
+
+article > ul > li {
+    line-height: 20px;
+}
+
+#conteudo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #063d1e;
+    padding: 7px;
+    line-height: 10.7px;
+}
+
+.link-3 {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.link-3:hover {
+    color: #83e1ad;
+    text-decoration: underline solid #83e1ad;
+}
